@@ -12,6 +12,9 @@ Android在SDK > 23後 使用WindowManager.LayoutParams.TYPE_SYSTEM_ALERT將會�
 設定參數WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY，
 否則可使用WindowManager.LayoutParams.TYPE_PHONE
 
+**Bold** and _Italic_ and `Code` text
+
+
 # 引用
 https://blog.bam.tech/developper-news/fix-permission-denied-window-type-error-when-integrating-react-native-in-existing-android-application
 
