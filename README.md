@@ -15,5 +15,7 @@ Android在SDK > 23後 使用WindowManager.LayoutParams.TYPE_SYSTEM_ALERT將會�
 
 # 引用
 https://blog.bam.tech/developper-news/fix-permission-denied-window-type-error-when-integrating-react-native-in-existing-android-application
+
 https://stackoverflow.com/questions/45867533/system-alert-window-permission-on-api-26-not-working-as-expected-permission-den
+
 https://developer.android.com/about/versions/oreo/android-8.0-changes.html#cwt
