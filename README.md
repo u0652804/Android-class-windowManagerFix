@@ -14,6 +14,9 @@ part2.
 設定WindowManager.LayoutParams時，判斷裝置SDK版本，如果版本>=23，
 設定參數WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY，
 否則可使用WindowManager.LayoutParams.TYPE_PHONE
+
+ps. AndroidManifest.xml 加入權限
+
 #
 part1. code
 ```ruby
@@ -51,6 +54,14 @@ part2. code
                     WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
                     PixelFormat.TRANSLUCENT);
         }
+```
+
+ps. code
+```ruby
+    <!--  < android6.0 => windowmanager  params use SYSTEM_ALERT_WINDOW -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!--  >= android6.0 => windowmanager  params use TYPE_APPLICATION_OVERLAY -->
+    <uses-permission android:name="android.permission.TYPE_APPLICATION_OVERLAY"/>
 ```
 
 
