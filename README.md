@@ -15,7 +15,7 @@ part2.
 設定參數WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY，
 否則可使用WindowManager.LayoutParams.TYPE_PHONE
 
-ps. AndroidManifest.xml 加入權限
+part3. AndroidManifest.xml 加入權限
 
 #
 part1. code
@@ -56,7 +56,7 @@ part2. code
         }
 ```
 
-ps. code
+part3. code
 ```ruby
     <!--  < android6.0 => windowmanager  params use SYSTEM_ALERT_WINDOW -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
